@@ -1,0 +1,7 @@
+line,invoice_id,customer,date,amount,currency,email,reason
+6,INV-005,,2026-08-05,300.00,CHF,unknown@example.com,missing customer
+7,INV-006,Delta Freight,2026-08-06,abc,CHF,ops@delta.ch,amount is not a number: 'abc'
+8,INV-003,Kaffee Zürich AG,2026-08-03,420,chf,finance@kaffee.ch,duplicate invoice_id
+9,INV-007,Helvetia Tools,2026-13-07,560.00,CHF,accounts@helvetia.ch,unrecognised date '2026-13-07'
+10,INV-008,Alpine Sports,2026-08-08,-75.00,CHF,refunds@alpine.ch,amount must be positive: -75.00
+12,INV-010,Initech,2026-08-10,150.00,GBP,not-an-email,unsupported currency GBP

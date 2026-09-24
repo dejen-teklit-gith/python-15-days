@@ -1,0 +1,20 @@
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Day 07 — textkit unit tests
+        run: cd day07-professional && pytest -q
+      - name: Day 10 — URL shortener API tests
+        run: cd day10-web-backend && pytest -q
+      - name: Day 15 — churn API tests
+        run: cd day15-capstone && pytest -q

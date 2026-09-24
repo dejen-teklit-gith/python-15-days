@@ -1,0 +1,9 @@
+{
+  "clean_rows": 5,
+  "rejected_rows": 6,
+  "totals_by_currency": {
+    "CHF": "5669.99",
+    "EUR": "980.50",
+    "USD": "2100.75"
+  }
+}

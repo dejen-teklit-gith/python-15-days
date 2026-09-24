@@ -1,0 +1,12 @@
+invoice_id,customer,date,amount,currency,email
+INV-001,Acme GmbH,2026-08-01,"1,250.00",CHF,billing@acme.ch
+INV-002, Blue Ocean Ltd ,01/08/2026,€980.50,EUR,ap@blueocean.io
+INV-003,Kaffee Zürich AG,2026-08-03,420,chf,finance@kaffee.ch
+INV-004,Nova Labs,Aug 4 2026,$2 100.75,USD,NOVA@LABS.COM
+INV-005,,2026-08-05,300.00,CHF,unknown@example.com
+INV-006,Delta Freight,2026-08-06,abc,CHF,ops@delta.ch
+INV-003,Kaffee Zürich AG,2026-08-03,420,chf,finance@kaffee.ch
+INV-007,Helvetia Tools,2026-13-07,560.00,CHF,accounts@helvetia.ch
+INV-008,Alpine Sports,2026-08-08,-75.00,CHF,refunds@alpine.ch
+INV-009,Globex SA,08.08.2026,"3,999.99",CHF,pay@globex.ch
+INV-010,Initech,2026-08-10,150.00,GBP,not-an-email

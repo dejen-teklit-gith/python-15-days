@@ -1,0 +1,6 @@
+invoice_id,customer,date,amount,currency,email
+INV-001,Acme GmbH,2026-08-01,1250.00,CHF,billing@acme.ch
+INV-002,Blue Ocean Ltd,2026-08-01,980.50,EUR,ap@blueocean.io
+INV-003,Kaffee Zürich AG,2026-08-03,420,CHF,finance@kaffee.ch
+INV-004,Nova Labs,2026-08-04,2100.75,USD,nova@labs.com
+INV-009,Globex SA,2026-08-08,3999.99,CHF,pay@globex.ch
